@@ -21,7 +21,6 @@ file.
 
 | Key Binding | Description                        |
 |-------------+------------------------------------|
-| ~SPC x x x~ | Does thing01                       |
 | tti         | timeclock-in                       |
 | tto         | timeclock-out                      |
 | ttc         | timeclock-change                   |
