@@ -7,6 +7,10 @@
 Time: Time time, clock; time time clock: time?
 
 Clock: Timeclock time clocktime!
+
+*Timeclock clock clock*
+
+Timeclock: 6:30 Clock!?!??
 #+END_QUOTE
 
 * Table of Contents                                        :TOC_4_gh:noexport:
@@ -21,17 +25,17 @@ Keybindings for timeclock, since I don't have enough time to type them out.
 
 | Key Binding | Description                        |
 |-------------+------------------------------------|
-| tti         | timeclock-in                       |
-| tto         | timeclock-out                      |
-| ttc         | timeclock-change                   |
-| ttr         | timeclock-reread-log               |
-| ttu         | timeclock-update-mode-line         |
-| ttw         | timeclock-when-to-leave-string     |
-| tts         | timeclock-status-string            |
-| ttm         | timeclock-modeline-display         |
-| ttg         | timeclock-workday-remaining-string |
-| tte         | timeclock-workday-elapsed-string   |
-| ttl         | timeclock-when-to-leave-string     |
+| ~SPC tti~   | timeclock-in                       |
+| ~SPC tto~   | timeclock-out                      |
+| ~SPC ttc~   | timeclock-change                   |
+| ~SPC ttr~   | timeclock-reread-log               |
+| ~SPC ttu~   | timeclock-update-mode-line         |
+| ~SPC ttw~   | timeclock-when-to-leave-string     |
+| ~SPC tts~   | timeclock-status-string            |
+| ~SPC ttm~   | timeclock-modeline-display         |
+| ~SPC ttg~   | timeclock-workday-remaining-string |
+| ~SPC tte~   | timeclock-workday-elapsed-string   |
+| ~SPC ttl~   | timeclock-when-to-leave-string     |
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
