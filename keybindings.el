@@ -1,8 +1,6 @@
 (defvar timeclock-log-dirs '(("g" "~/.emacs.d/private/timelogs/gsp-log")
                              ("p" "~/.emacs.d/private/timelogs/private-log")))
-(defvar timeclock-in-dir (if (boundp 'timeclock-file)
-                             timeclock-file
-                           (setf timeclock-file (cadar timeclock-log-dirs))))
+(defvar timeclock-in-dir timeclock-file)
 (defvar timeclock-temp-file timeclock-file)
 (defun timeclock-in-selector ()
   (interactive)

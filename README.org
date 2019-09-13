@@ -3,14 +3,16 @@
 # The maximum height of the logo should be 200 pixels.
 [[timetimeclockclocktime.png]]
 
-#+BEGIN_SRC
-Those who fail to plan plan to fail.
-#+END_SRC
---My uncle
-#+BEGIN_SRC
-Those who fail to manage their time fail to plan.
-#+END_SRC
---Author
+#+BEGIN_QUOTE
+Time: Time time, clock; time time clock: time?
+
+Clock: Timeclock time clocktime!
+
+*Timeclock clock clock*
+
+Timeclock: 6:30 Clock!?!??
+#+END_QUOTE
+
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
 - [[#key-bindings][Key bindings]]
