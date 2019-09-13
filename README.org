@@ -17,7 +17,7 @@ Those who fail to manage their time fail to plan.
 - [[#install][Install]]
 
 * Description
-Keybindings for timeclock, since I don't have enough time to type them out.
+Keybindings for timeclock.
 
 * Key bindings
 
