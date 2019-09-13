@@ -30,7 +30,7 @@
 ;;; Code:
 
 (defconst timeclock-packages
-  '()
+  '(timeclock)
   "The list of Lisp packages required by the timeclock layer.
 
 Each entry is either:
