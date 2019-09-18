@@ -1,5 +1,6 @@
 #+TITLE: Timeclock Layer For Spacemacs
-
+#+AUTHOR: Spenser Truex
+#+EMAIL: web@spensertruex.com
 # The maximum height of the logo should be 200 pixels.
 [[timetimeclockclocktime.png]]
 
