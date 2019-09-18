@@ -1,25 +1,24 @@
 #+TITLE: Timeclock Layer For Spacemacs
-
+#+AUTHOR: Spenser Truex
+#+EMAIL: web@spensertruex.com
 # The maximum height of the logo should be 200 pixels.
 [[timetimeclockclocktime.png]]
 
-#+BEGIN_QUOTE
-Time: Time time, clock; time time clock: time?
-
-Clock: Timeclock time clocktime!
-
-*Timeclock clock clock*
-
-Timeclock: 6:30 Clock!?!??
-#+END_QUOTE
-
+#+BEGIN_SRC
+Those who fail to plan plan to fail.
+#+END_SRC
+--My uncle
+#+BEGIN_SRC
+Those who fail to manage their time fail to plan.
+#+END_SRC
+--Author
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
 - [[#key-bindings][Key bindings]]
 - [[#install][Install]]
 
 * Description
-Keybindings for timeclock, since I don't have enough time to type them out.
+Keybindings for timeclock.
 
 * Key bindings
 
