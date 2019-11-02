@@ -1,7 +1,7 @@
 (spacemacs/declare-prefix "tt" "timeclock")
 (spacemacs/set-leader-keys
-   "tti" 'timeclock-in
-   "tto" 'timeclock-out
+   "tti" 'timeclock-in-selector
+   "tto" 'timeclock-out-selector
    "ttc" 'timeclock-change
    "ttr" 'timeclock-reread-log
    "ttu" 'timeclock-update-mode-line
