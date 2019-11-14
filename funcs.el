@@ -8,7 +8,6 @@
                       ((string-equal "r" in) nil))))
          (logdir (if pub public-log-dir private-log-dir))
          (expdir (if pub public-export-dir private-export-dir)))
-    (message "%s %s %s" pub public-log-dir public-export-dir)
     (shell-command (concat "generate.pl --log-dir='"
                            logdir
                            "' --export-dir='"
@@ -27,7 +26,9 @@
                                           "[P]ublic or p[R]ivate timelog? [p/r]")))))
               (if (member selection (mapcar #'car timeclock-log-dirs))
                   (progn (setf timeclock-temp-file timeclock-file)
-                         (setf timeclock-file (cadr (assoc selection timeclock-log-dirs)))
+                         (setf timeclock-file (concat (cadr (assoc selection
+                                                                   timeclock-log-dirs))
+                                                      "/timelog"))
                          (timeclock-in 0 nil t))
                 (inner t)))))
     (inner nil)))

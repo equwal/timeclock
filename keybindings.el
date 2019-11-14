@@ -11,4 +11,4 @@
    "ttg" 'timeclock-workday-remaining-string
    "tte" 'timeclock-workday-elapsed-string
    "ttl" 'timeclock-when-to-leave-string
-   "ttR" 'timelock-report)
+   "ttR" 'timeclock-report)
