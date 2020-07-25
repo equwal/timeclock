@@ -2,7 +2,7 @@
 #+AUTHOR: Spenser Truex
 #+EMAIL: web@spensertruex.com
 # The maximum height of the logo should be 200 pixels.
-[[timetimeclockclocktime.png]]
+[[logo.png]]
 
 #+BEGIN_SRC
 Those who fail to plan plan to fail.
